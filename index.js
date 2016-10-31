@@ -1,4 +1,5 @@
 function iterativeLog(array){
+  //don't need array below, only element, index
   array.forEach((element,index,array) => {console.log(`${index}: ${element}`)})
 }
 
